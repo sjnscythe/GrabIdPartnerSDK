@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GrabIdPartnerSDK_Example' do
+  pod 'GrabIdPartnerSDK', :path => '../'
+
+  target 'GrabIdPartnerSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
